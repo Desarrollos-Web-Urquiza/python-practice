@@ -40,3 +40,9 @@ def division(num_uno, num_dos):
     Regresa un número real el cual es el resultado de una división
     """
     return num_uno / num_dos
+
+def saluda():
+    print("Saluda")
+# print(__name__)
+if __name__ == '__main__':
+    saluda()

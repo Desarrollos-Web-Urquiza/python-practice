@@ -5,9 +5,16 @@
 #                         resta, 
 #                         multiplicacion, 
 #                         division)
-from calculator import *
+# from calculator import *
 
 # resultado = calculator.suma(30, 45)
 # resultado = suma(30, 45)
-resultado = resta(30, 45)
-print(resultado)
+# resultado = resta(30, 45)
+# print(resultado)
+
+from calculator import __name__ as __name____calculator__
+# print(__name__)
+# print(__name____calculator__)
+
+# if __name__ == '__main__': #Es este el script principal?
+
